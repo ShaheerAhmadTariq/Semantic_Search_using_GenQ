@@ -2,3 +2,9 @@ motor
 python-dotenv
 ipykernel
 pandas
+ollama
+tqdm
+sentence-transformers
+nltk
+datasets
+accelerate
