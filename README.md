@@ -42,3 +42,12 @@ This section details the training of a Transformer-based Denoising AutoEncoder (
 7. **Model Saving**: After training, the model is saved for later use, encapsulating all learned parameters and configurations.
 
 This training regimen effectively teaches the model to denoise text data, enhancing its capability for downstream tasks like sentence embedding and document similarity assessment.
+
+### Finetuning SBERT with MNR
+
+This section covers the fine-tuning of the Sentence-BERT (SBERT) model using Multiple Negatives Ranking (MNR) loss. The process includes:
+
+- **Data Preparation**: Loading the dataset and creating document-query pairs for training.
+- **Creating Training Samples**: Transforming document-query pairs into `InputExample` objects and compiling them into a training dataset.
+- **Model and DataLoader Configuration**: Initializing the BERT transformer model, adding a pooling layer for sentence embeddings, and setting up a data loader for efficient batching.
+- **Training the Model**: Fine-tuning the model with MNR loss to improve its ranking capability, setting training parameters, and saving the fine-tuned model for future use.
