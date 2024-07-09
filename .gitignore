@@ -3,6 +3,7 @@
 tsdae-model/
 db/
 sbert_test_mnr2/
+volumes/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

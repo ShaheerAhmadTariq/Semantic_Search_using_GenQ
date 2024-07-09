@@ -9,3 +9,6 @@ nltk
 datasets
 accelerate
 chromadb
+pymilvus
+pymilvus[model]
+gradio
