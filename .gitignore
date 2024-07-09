@@ -1,6 +1,8 @@
 # local Folders and files
 *.safetensors
 tsdae-model/
+db/
+sbert_test_mnr2/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
